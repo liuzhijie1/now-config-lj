@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "a cli learn from youtube",
   "main": "src/index.js",
+  "bin": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +15,8 @@
     "eslint": "^8.33.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.5"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.5"
   }
 }
